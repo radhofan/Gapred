@@ -1,9 +1,9 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="simple_nn",  # Library name
-    version="0.1.0",  # Initial version
-    description="A simple K-Nearest Neighbors (KNN) machine learning framework",
+    name="gapred",  # Library name
+    version="0.5.0",  # Initial version
+    description="Self-made ML framework",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
     author="Your Name",
