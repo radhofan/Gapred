@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="gapred",  # Library name
-    version="0.5.0",  # Initial version
+    version="0.7.0",  # Initial version
     description="Self-made ML framework",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
