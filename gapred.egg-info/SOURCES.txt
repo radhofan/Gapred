@@ -8,5 +8,9 @@ gapred.egg-info/requires.txt
 gapred.egg-info/top_level.txt
 gapred/reinforced/__init__.py
 gapred/supervised/__init__.py
+gapred/supervised/decision_tree.py
 gapred/supervised/knn.py
+gapred/supervised/linear_regression.py
+gapred/supervised/naive_bayes.py
+gapred/supervised/random_forest.py
 gapred/unsupervised/__init__.py

@@ -77,17 +77,14 @@ class KNN:
 
 
 # Example usage
-if __name__ == "__main__":
-    # Example dataset
-    X_train = np.array([[1, 2], [2, 3], [3, 3], [6, 8], [7, 9]])
-    y_train = np.array([0, 0, 0, 1, 1])  # Labels: 0 for class 0, 1 for class 1
+# if __name__ == "__main__":
+#     X_train = np.array([[1, 2], [2, 3], [3, 3], [6, 8], [7, 9]])
+#     y_train = np.array([0, 0, 0, 1, 1])  
 
-    X_test = np.array([[3, 4], [5, 7]])
+#     X_test = np.array([[3, 4], [5, 7]])
 
-    # Initialize and train KNN
-    knn = KNN(k=3)
-    knn.fit(X_train, y_train)
+#     knn = KNN(k=3)
+#     knn.fit(X_train, y_train)
 
-    # Predict
-    predictions = knn.predict(X_test)
-    print("Predictions:", predictions)
+#     predictions = knn.predict(X_test)
+#     print("Predictions:", predictions)
