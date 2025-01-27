@@ -1,15 +1,19 @@
 import numpy as np
 
 class DecisionTree:
-    def __init__(self, max_depth=None):
+    def __init__(self, max_depth=None, random_state=None):
         """
         Initialize the Decision Tree model.
 
         Parameters:
         - max_depth: int, the maximum depth of the tree (default: None, no limit)
+        - random_state: int or None, random state for reproducibility (default: None)
         """
         self.max_depth = max_depth
+        self.random_state = random_state
         self.tree = None
+        if self.random_state is not None:
+            np.random.seed(self.random_state)
 
     def fit(self, X_train, y_train):
         """
