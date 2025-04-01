@@ -1,5 +1,7 @@
 #Gapred
 
+PyPi Link: https://pypi.org/project/gapred/
+
 ## Sample use
 
 Currently gapred supports 5 ml models(knn, linear regression, decision tree, random forest and naive bayes)
